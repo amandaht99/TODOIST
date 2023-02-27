@@ -8,14 +8,23 @@
     <!--script src="scripts/script.js" defer></script-->
   </head>
   <body>
-    <ul>
-        <li><a href="index.html">Login Page</a></li>
-        <li>Home Page</li>
-        <li><a href="shopping_list.html">Shopping List</a></li>
-    </ul>
+    <header>
+      <nav>
+        <ul class="navigation_bar">
+          <li class="nav_li"><a href="index.html">Login Page</a></li>
+          <li class="nav_li">Home Page</a></li>
+          <li class="nav_li"><a href="shopping_list.html">Shopping List</a></li>
+        </ul>
+      </nav>
+    </header>
     <h2>Welcome &lt;User&gt;, here are your lists</h2>
-    <button><a href="shopping_list.html">Shopping</a></button>
-    <button>Work </button>
-    <button>Today</button>
+    <div class="box_list_buttons">
+      <section class="list_buttons">
+        <button class="button_for_lists"><a href="shopping_list.html">Shopping</a></button>
+        <button class="button_for_lists">Work </button>
+        <button class="button_for_lists">Today</button>
+        <button class="button_for_lists">+</button>
+      </section>
+    </div>
   </body>
 </html>
