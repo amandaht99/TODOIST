@@ -1,0 +1,59 @@
+html {
+    background-color: rgb(162, 216, 241);
+    font-size: 20px;
+  }
+
+  ul {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  /* Small screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  .container {
+    width: 60%;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+
+  /*rgb (137, 207, 240);*/
